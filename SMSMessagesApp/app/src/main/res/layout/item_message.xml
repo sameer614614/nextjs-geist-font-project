@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <!-- Sent Message -->
+    <LinearLayout
+        android:id="@+id/layoutSentMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewSentMessage"
+            style="@style/MessageBubbleSent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Body"
+            android:textColor="@color/message_sent_text"
+            android:textSize="16sp"
+            tools:text="Hello, how are you?" />
+
+        <TextView
+            android:id="@+id/textViewSentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.Caption"
+            android:textSize="11sp"
+            tools:text="2:30 PM" />
+
+    </LinearLayout>
+
+    <!-- Received Message -->
+    <LinearLayout
+        android:id="@+id/layoutReceivedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewReceivedMessage"
+            style="@style/MessageBubbleReceived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Body"
+            android:textColor="@color/message_received_text"
+            android:textSize="16sp"
+            tools:text="I'm doing great, thanks!" />
+
+        <TextView
+            android:id="@+id/textViewReceivedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.Caption"
+            android:textSize="11sp"
+            tools:text="2:32 PM" />
+
+    </LinearLayout>
+
+</LinearLayout>
