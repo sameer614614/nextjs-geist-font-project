@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#FFF5F5F5</color>
+    <color name="gray_medium">#FFE0E0E0</color>
+    <color name="gray_dark">#FF757575</color>
+    <color name="gray_darker">#FF424242</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary">#FF000000</color>
+    <color name="primary_dark">#FF000000</color>
+    <color name="accent">#FF333333</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFFFF</color>
+    <color name="background_dark">#FF121212</color>
+    <color name="surface_light">#FFFFFFFF</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#FF000000</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_light">#FF757575</color>
+    <color name="text_secondary_dark">#FFB3B3B3</color>
+    
+    <!-- Message Bubble Colors -->
+    <color name="message_sent_bg">#FF000000</color>
+    <color name="message_received_bg">#FFF5F5F5</color>
+    <color name="message_sent_text">#FFFFFFFF</color>
+    <color name="message_received_text">#FF000000</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#FF4CAF50</color>
+    <color name="error">#FFF44336</color>
+    <color name="warning">#FFFF9800</color>
+</resources>
