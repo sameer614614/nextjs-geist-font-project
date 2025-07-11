@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SMS Messages</string>
+    <string name="default_sms_app_title">Set as Default SMS App</string>
+    <string name="default_sms_app_message">To send and receive SMS messages, please set this app as your default SMS app.</string>
+    <string name="permissions_required_title">Permissions Required</string>
+    <string name="permissions_required_message">This app needs SMS and Contacts permissions to function properly.</string>
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_message">Please disable battery optimization for this app to receive SMS in background.</string>
+    <string name="new_chat">New Chat</string>
+    <string name="send">Send</string>
+    <string name="type_message">Type a message...</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="select_contact">Select Contact</string>
+    <string name="no_messages">No messages yet</string>
+    <string name="permission_denied">Permission denied. App may not work properly.</string>
+    <string name="sms_sent">Message sent</string>
+    <string name="sms_failed">Failed to send message</string>
+    <string name="invalid_number">Please enter a valid phone number</string>
+    <string name="empty_message">Please enter a message</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="set_default">Set Default</string>
+    <string name="loading">Loading...</string>
+</resources>
